@@ -1,6 +1,6 @@
 {
 	"name": "parse-sse",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Parse Server-Sent Events (SSE) from a Response",
 	"license": "MIT",
 	"repository": "sindresorhus/parse-sse",
