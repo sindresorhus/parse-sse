@@ -1,0 +1,55 @@
+{
+	"name": "parse-sse",
+	"version": "0.0.0",
+	"description": "Parse Server-Sent Events (SSE) from a Response",
+	"license": "MIT",
+	"repository": "sindresorhus/parse-sse",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"test": "xo && node --test"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"sse",
+		"server-sent-events",
+		"eventsource",
+		"event-stream",
+		"parse",
+		"parser",
+		"stream",
+		"streaming",
+		"readablestream",
+		"transformstream",
+		"fetch",
+		"response",
+		"async",
+		"generator",
+		"iterable"
+	],
+	"devDependencies": {
+		"@types/node": "^24.9.1",
+		"xo": "^1.2.3"
+	},
+	"xo": {
+		"rules": {
+			"max-depth": "off"
+		}
+	}
+}
